@@ -1,0 +1,69 @@
+Installation Steps:
+
+- install python 2.7
+- pip install socket
+
+How to Run:
+- run server.py
+      python server.py
+
+- run multiple instances of client.py
+      run two process of python client.py
+
+
+
+Sample Run--
+sumits-MacBook-Pro:simulator sumit$ python server.py
+Listening for client . . .
+Connected to client at  ('127.0.0.1', 56384)
+send to client: SimulationServer:  Temperature is 25
+Listening for client . . .
+Connected to client at  ('127.0.0.1', 56385)
+send to client: SimulationServer:  Temperature is 26
+Listening for client . . .
+Connected to client at  ('127.0.0.1', 56387)
+send to client: SimulationServer:  Temperature is 28
+Listening for client . . .
+Connected to client at  ('127.0.0.1', 56389)
+send to client: SimulationServer:  Temperature is 25
+Listening for client . . .
+Connected to client at  ('127.0.0.1', 56390)
+..........................
+
+
+sumits-MacBook-Pro:simulator sumit$ python client.py
+Temperature alert from server:
+SimulationServer:  Temperature is 25
+Temperature alert from server:
+SimulationServer:  Temperature is 26
+Temperature alert from server:
+SimulationServer:  Temperature is 28
+Temperature alert from server:
+SimulationServer:  Temperature is 25
+Temperature alert from server:
+SimulationServer:  Temperature is 27
+Temperature alert from server:
+SimulationServer:  Temperature is 28
+Temperature alert from server:
+SimulationServer:  Temperature is 28
+Temperature alert from server:
+SimulationServer:  Temperature is 28
+Temperature alert from server:
+
+
+..........................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
